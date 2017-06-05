@@ -224,7 +224,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
 			break;
 		
 		case GPIO_PIN_11:
-//      	osSignalSet(tid_gyr_EvtHandler, DRDY_SIG);
+      	osSignalSet(tid_gyr_EvtHandler, DRDY_SIG);
 			break;
 		
 		case GPIO_PIN_7:                              /* Mag DRDY  pin = PC7  */
